@@ -26,15 +26,19 @@ Developed using **MongoDB**, **Express.js**, **React.js**, and **Node.js (MERN s
 ## 🖼️ Screenshots
 📌 **Login Page**  
 *Login Interface for user access.*
+![Login Page](./screenshots/Login.png)
 
 📌 **GPA Calculator Page**  
 *Input marks, credits, and get semester GPA instantly.*
+![GPA Calculator Page](./screenshots/GPAcalculationpage.png)
 
-📌 **CGPA Calculator Page**  
-*View your overall CGPA at a glance.*
+📌 **GPA Report Page**  
+*View your overall GPA,CGPA report at a glance.*
+![GPA Report Page](./screenshots/GPAReportpage.png)
 
-📌 **Responsive Design**  
-*Looks great on both desktop and mobile devices.*
+📌 **PDF Page**  
+*Get your PDF ready downloaded.*
+![PDF](./screenshots/PDF.png)
 
 ---
 
