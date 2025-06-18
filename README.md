@@ -1,6 +1,6 @@
 # 🎓 GPA & CGPA Calculator - MERN Stack
 
-📌 **Overview**
+##📌 Overview**
 
 GPA & CGPA Calculator is a full-stack web application built to help students calculate their Semester GPA and overall CGPA efficiently. It offers a user-friendly interface, secure login, and dynamic calculations with plans for further feature enhancements.
 
