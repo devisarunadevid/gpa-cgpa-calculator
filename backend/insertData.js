@@ -8,7 +8,10 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then(() => console.log("MongoDB Connected"))
+  .then(() => {
+    console.log("MongoDB Connected");
+    return createStudent(); // Call after connection established
+  })
   .catch((err) => console.log(err));
 
 async function createStudent() {
@@ -22,6 +25,8 @@ async function createStudent() {
     console.log("Student created");
   } catch (err) {
     console.error("Error creating student:", err);
+  } finally {
+    mongoose.connection.close(); // Important to close connection after operation
   }
 }
 
