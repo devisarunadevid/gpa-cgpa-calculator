@@ -1,6 +1,7 @@
 # 🎓 GPA & CGPA Calculator - MERN Stack
 
 📌 **Overview**
+
 GPA & CGPA Calculator is a full-stack web application built to help students calculate their Semester GPA and overall CGPA efficiently. It offers a user-friendly interface, secure login, and dynamic calculations with plans for further feature enhancements.
 
 Developed using **MongoDB**, **Express.js**, **React.js**, and **Node.js (MERN stack)**, this project showcases my full-stack development skills.
