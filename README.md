@@ -1,34 +1,29 @@
 # 🎓 GPA & CGPA Calculator - MERN Stack
 
-##📌 Overview**
-
-GPA & CGPA Calculator is a full-stack web application built to help students calculate their Semester GPA and overall CGPA efficiently. It offers a user-friendly interface, secure login, and dynamic calculations with plans for further feature enhancements.
+## 📌 Overview
+✨ **GPA & CGPA Calculator** is a full-stack web application built to help students calculate their Semester GPA and overall CGPA efficiently.  
+It offers a user-friendly interface, secure login, and dynamic calculations with plans for further feature enhancements.
 
 Developed using **MongoDB**, **Express.js**, **React.js**, and **Node.js (MERN stack)**, this project showcases my full-stack development skills.
+
+---
 
 🌐 **Live Website**  
 🚀 Coming Soon...
 
 ---
 
-## 🎯 **Features**
-✅ **User Authentication** – Secure login & signup functionality  
-✅ **GPA Calculator** – Calculate GPA for each semester  
-✅ **CGPA Calculator** – Track your CGPA with individual semester scores  
-✅ **Responsive Design** – Optimized for desktops and mobiles  
-✅ **Future Updates Planned** – More features coming soon!
+## 🎯 Features 
+- ⚛️ **Frontend:** Built with **React** and **Vite** for lightning-fast rendering and modern, intuitive UI  
+- 🔐 **Authentication:** Secure **JWT-based login system** to protect user data  
+- 🧮 **GPA/CGPA Calculation Logic:** Supports semester-wise GPA calculation based on credits & grades  
+- 📄 **PDF Export:** Instantly download GPA/CGPA reports for offline reference  
+- 🎉 **Confetti Effect:** Celebrate success with confetti when GPA is above 8!  
+- 🌐 **Backend:** **Node.js + Express** REST API with **MongoDB** for persistent data  
 
 ---
 
-## 🔧 **Technologies Used**
-**Frontend:** React.js, Tailwind CSS  
-**Backend:** Node.js, Express.js  
-**Database:** MongoDB  
-**Other Tools:** Vite, VS Code, GitHub
-
----
-
-## 🖼️ **Screenshots**
+## 🖼️ Screenshots
 📌 **Login Page**  
 *Login Interface for user access.*
 
@@ -43,18 +38,19 @@ Developed using **MongoDB**, **Express.js**, **React.js**, and **Node.js (MERN s
 
 ---
 
-## 🚀 **Future Plans**
-🔹 Implement downloadable PDF reports  
-🔹 Add student profile management  
-🔹 Include semester-wise analytics & graphs  
-🔹 Provide GPA prediction for upcoming semesters
+## 🚀 Future Plans 
+- 📚 **Support for all semesters**  
+- 📈 **Analytics & Visual Reports**  
+- 🗂️ **Student Profile Management**  
+- 🏫 **Department & Batch-Wide Performance Insights**  
+- 📬 **Automated Email Notifications for Results**
 
 💡 **Stay tuned for updates!** 🎉
 
 ---
 
-## 📬 **Contact & Feedback**
-If you have suggestions or want to collaborate:
+## 📬 Contact & Feedback
+If you have suggestions:
 
 📧 [devisarunadevidd@gmail.com](mailto:devisarunadevidd@gmail.com)  
 🔗 [GitHub Profile](https://github.com/devisarunadevid)
