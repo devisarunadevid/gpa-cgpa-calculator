@@ -240,13 +240,13 @@ function Cgpa() {
 
       <div className="shadow-md flex items-center justify-between px-4 py-3 w-full ">
         <img src={vcetLogo} alt="VCET Logo" className="h-16" />
-        <p className="font-vibes text-center text-white text-lg">
+        <p className="text-center text-white text-lg">
           VELAMMAL COLLEGE OF ENGINEERING AND TECHNOLOGY
         </p>
         <img src={cseLogo} alt="CSE Logo" className="h-16" />
       </div>
 
-      <h1 className="text-white text-4xl font-vibes text-center mt-10">
+      <h1 className="text-white text-4xl font-bold text-center mt-10">
         GPA Calculator
       </h1>
 
@@ -271,7 +271,7 @@ function Cgpa() {
         </div>
       ) : (
         <div className="flex items-center mt-6">
-          <h2 className="text-white text-3xl font-vibes text-center">
+          <h2 className="text-white text-3xl font-bold text-center">
             {selectedSemester}
           </h2>
           <button
@@ -312,7 +312,7 @@ function Cgpa() {
           </div>
 
           <div className="p-6 mt-8 mb-4 rounded-lg shadow-lg w-full max-w-4xl bg-white">
-            <h2 className="text-center text-xl font-vibes mb-4">GPA Report</h2>
+            <h2 className="text-center text-xl font-bold mb-4">GPA Report</h2>
             <p>
               <strong>Register Number:</strong> {registerNumber}
             </p>
