@@ -8,7 +8,10 @@ const Student = require("./models/Student");
 const app = express();
 app.use(express.json());
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: [
+    "https://gpa-cgpa-calculator-orcin.vercel.app",
+    "http://localhost:5173",
+  ],
   methods: "GET,POST,PUT,DELETE",
   credentials: true,
 };
@@ -50,7 +53,6 @@ app.post("/login", async (req, res) => {
 app.get("/", (req, res) => {
   res.send("API is working");
 });
-
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server Running on port ${PORT}`));
