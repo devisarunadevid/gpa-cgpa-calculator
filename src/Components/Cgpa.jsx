@@ -271,7 +271,9 @@ function Cgpa() {
         </div>
       ) : (
         <div className="flex items-center mt-6">
-          <h2 className="text-white text-3xl font-bold">{selectedSemester}</h2>
+          <h2 className="text-white text-3xl font-vibes text-center">
+            {selectedSemester}
+          </h2>
           <button
             className="ml-4 px-4 py-2 text-white rounded-lg bg-purple-500"
             onClick={() => setIsSemesterSelected(false)}
@@ -310,7 +312,7 @@ function Cgpa() {
           </div>
 
           <div className="p-6 mt-8 mb-4 rounded-lg shadow-lg w-full max-w-4xl bg-white">
-            <h2 className="text-center text-xl font-bold mb-4">GPA Report</h2>
+            <h2 className="text-center text-xl font-vibes mb-4">GPA Report</h2>
             <p>
               <strong>Register Number:</strong> {registerNumber}
             </p>
