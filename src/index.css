@@ -1,4 +1,9 @@
 @import "tailwindcss";
-body {
-  font-family: "Great Vibes", cursive;
+
+@layer base {
+  h1,
+  h2,
+  .font-vibes {
+    font-family: "Great Vibes", cursive;
+  }
 }

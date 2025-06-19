@@ -240,13 +240,13 @@ function Cgpa() {
 
       <div className="shadow-md flex items-center justify-between px-4 py-3 w-full ">
         <img src={vcetLogo} alt="VCET Logo" className="h-16" />
-        <p className="text-center font-bold text-white text-lg">
+        <p className="font-vibes text-center text-white text-lg">
           VELAMMAL COLLEGE OF ENGINEERING AND TECHNOLOGY
         </p>
         <img src={cseLogo} alt="CSE Logo" className="h-16" />
       </div>
 
-      <h1 className="text-white text-4xl font-bold text-center mt-10">
+      <h1 className="text-white text-4xl font-vibes text-center mt-10">
         GPA Calculator
       </h1>
 
