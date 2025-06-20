@@ -9,7 +9,7 @@ Developed using **MongoDB**, **Express.js**, **React.js**, and **Node.js (MERN s
 ---
 
 🌐 **Live Website**  
-🚀 Coming Soon...
+🚀 [Visit GPA & CGPA Calculator Live](https://gpa-cgpa-calculator-orcin.vercel.app)
 
 ---
 
@@ -25,19 +25,19 @@ Developed using **MongoDB**, **Express.js**, **React.js**, and **Node.js (MERN s
 
 ## 🖼️ Screenshots
 📌 **Login Page**  
-*Login Interface for user access.*
+*Login Interface for user access.*  
 ![Login Page](./screenshots/Login.png)
 
 📌 **GPA Calculator Page**  
-*Input marks, credits, and get semester GPA instantly.*
+*Input marks, credits, and get semester GPA instantly.*  
 ![GPA Calculator Page](./screenshots/GPAcalculationpage.png)
 
 📌 **GPA Report Page**  
-*View your overall GPA,CGPA report at a glance.*
+*View your overall GPA,CGPA report at a glance.*  
 ![GPA Report Page](./screenshots/GPAReportpage.png)
 
 📌 **PDF Page**  
-*Get your PDF ready downloaded.*
+*Get your PDF ready downloaded.*  
 ![PDF](./screenshots/PDF.png)
 
 ---
