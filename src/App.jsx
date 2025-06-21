@@ -4,12 +4,11 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Login from "./Components/Login";
 
-
 function App() {
   const [message, setMessage] = useState("");
   useEffect(() => {
     axios
-      .get("http://localhost:5000")
+      .get("https://gpa-cgpa-backend.onrender.com/")
       .then((response) => setMessage(response.data))
       .catch((error) => console.error(error));
   }, []);
