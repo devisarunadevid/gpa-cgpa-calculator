@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.0.6",
     "axios": "^1.7.9",
     "culori": "^4.0.1",
     "html2canvas": "^1.4.1",
@@ -26,6 +25,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
+    "@tailwindcss/vite": "^4.1.10",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
