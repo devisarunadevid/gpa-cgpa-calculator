@@ -13,7 +13,7 @@
     "axios": "^1.7.9",
     "culori": "^4.0.1",
     "html2canvas": "^1.4.1",
-    "jspdf": "^3.0.0",
+    "jspdf": "^2.5.1",
     "jspdf-autotable": "^3.8.4",
     "mongodb": "^6.17.0",
     "mongoose": "^8.16.0",
