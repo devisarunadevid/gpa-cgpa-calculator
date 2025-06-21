@@ -36,17 +36,22 @@ function Login() {
 
   return (
     <div>
-      <div className="shadow-md flex items-center justify-between px-6 py-3  w-full">
-        <img id="vlogo" src={vcetLogo} alt="VCET Logo" className="h-16" />
-        <p className="text-center text-white text-lg">
+      <div className="shadow-md flex items-center justify-between px-4 py-3  w-full">
+        <img
+          id="vlogo"
+          src={vcetLogo}
+          alt="VCET Logo"
+          className="h-12 md:h-16"
+        />
+        <p className="text-center text-white text-sm md:text-lg mx-2">
           VELAMMAL COLLEGE OF ENGINEERING AND TECHNOLOGY
         </p>
-        <img id="clogo" src={cseLogo} alt="CSE Logo" className="h-16" />
+        <img id="clogo" src={cseLogo} alt="CSE Logo" className="h-12 md:h-16" />
       </div>
 
-      <div className="flex justify-center items-center min-h-screen">
+      <div className="flex justify-center items-center min-h-screen px-4">
         <form onSubmit={handleSubmit}>
-          <div className=" bg-blue-900/30 border border-blue-300/30 rounded-2xl p-8 shadow-2xl backdrop-blur-3xl relative w-96">
+          <div className=" bg-blue-900/30 border border-blue-300/30 rounded-2xl p-8 shadow-2xl backdrop-blur-3xl relative w-full max-w-sm">
             <h1 className=" text-white text-4xl font-bold text-center mb-6">
               Login
             </h1>

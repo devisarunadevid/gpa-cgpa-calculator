@@ -239,11 +239,11 @@ function Cgpa() {
       {showConfetti && <Confetti width={width} height={height} />}
 
       <div className="shadow-md flex items-center justify-between px-4 py-3 w-full ">
-        <img src={vcetLogo} alt="VCET Logo" className="h-16" />
-        <p className="text-center text-white text-lg">
+        <img src={vcetLogo} alt="VCET Logo" className="h-12 md:h-16" />
+        <p className="text-center text-white text-sm md:text-lg mx-2">
           VELAMMAL COLLEGE OF ENGINEERING AND TECHNOLOGY
         </p>
-        <img src={cseLogo} alt="CSE Logo" className="h-16" />
+        <img src={cseLogo} alt="CSE Logo" className="h-12 md:h-16" />
       </div>
 
       <h1 className="text-white text-4xl font-bold text-center mt-10">
@@ -289,10 +289,10 @@ function Cgpa() {
             {subjects[selectedSemester].map(({ name, credits, code }) => (
               <div key={name} className=" text-white p-4 rounded-lg shadow-md">
                 <p className="font-semibold">{name}</p>
-                <p className="text-sm text-gray-400">
-                  {credits} Credits
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {code}
-                </p>
+                <div className="flex justify-between items-center text-sm text-gray-400 mt-1">
+                  <span>{credits} Credits</span>
+                  <span>{code}</span>
+                </div>
                 <select
                   className="mt-2 p-2 border border-gray-600 rounded-lg text-black w-full custom-select"
                   value={grades[selectedSemester]?.[name] || ""}
@@ -323,7 +323,8 @@ function Cgpa() {
               <strong>Semester:</strong> {selectedSemester}
             </p>
 
-            <table className="w-full mt-4 border-collapse border border-gray-400">
+            {/* Desktop Table View */}
+            <table className="w-full mt-4 border-collapse border border-gray-400 hidden md:table">
               <thead>
                 <tr className=" text-black bg-purple-400">
                   <th className="p-2 border">Course Code</th>
@@ -345,6 +346,32 @@ function Cgpa() {
                 ))}
               </tbody>
             </table>
+
+            {/* Mobile Card View */}
+            <div className="w-full mt-4 md:hidden">
+              {subjects[selectedSemester].map(({ name, credits, code }) => (
+                <div
+                  key={name}
+                  className="p-3 mb-3 border rounded-lg shadow-md bg-gray-50"
+                >
+                  <p className="font-bold text-gray-800">{name}</p>
+                  <div className="flex justify-between text-sm mt-2 text-gray-600">
+                    <span>
+                      <strong>Course Code:</strong> {code}
+                    </span>
+                    <span>
+                      <strong>Credits:</strong> {credits}
+                    </span>
+                  </div>
+                  <div className="text-sm mt-2 text-gray-600">
+                    <strong>Grade:</strong>{" "}
+                    <span className="font-semibold text-purple-700">
+                      {grades[selectedSemester]?.[name] || "N/A"}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
 
             <p className="mt-4">
               <strong>Total GPA:</strong>{" "}
