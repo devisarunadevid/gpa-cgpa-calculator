@@ -31,12 +31,15 @@ mongoose
 app.post("/login", async (req, res) => {
   const { RegisterNo, RollNo } = req.body;
   try {
-    const student = await Student.findOne({ RegisterNo });
+    const student = await Student.findOne({
+      RegisterNo,
+      RollNo: { $regex: `^${RollNo}$`, $options: "i" }, // 👈 Case-insensitive match
+    });
+
     if (!student) {
-      return res.status(404).json({ message: "User not found!" });
-    }
-    if (student.RollNo !== RollNo) {
-      return res.status(401).json({ message: "Invalid Roll Number!" });
+      return res
+        .status(401)
+        .json({ message: "Invalid Register Number or Roll Number!" });
     }
     const token = jwt.sign(
       { RegisterNo: student.RegisterNo, RollNo: student.RollNo },
