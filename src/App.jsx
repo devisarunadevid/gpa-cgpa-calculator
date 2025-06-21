@@ -20,6 +20,9 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/cgpa" element={<Cgpa />} />
       </Routes>
+
+      {/* 👇 Optional Debugging */}
+      <p className="text-white text-center text-xs">{message}</p>
     </div>
   );
 }
