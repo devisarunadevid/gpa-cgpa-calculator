@@ -20,8 +20,6 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/cgpa" element={<Cgpa />} />
       </Routes>
-      {/* Optional: Display backend message for debugging */}
-      {/* <p>Message from Backend: {message}</p> */}
     </div>
   );
 }
